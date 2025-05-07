@@ -1,4 +1,4 @@
-from slotmachinegame import SlotMachineGame
+from src.slotmachinegame import SlotMachineGame
 
 def main():
     print("Welcome to the Slot Machine!")

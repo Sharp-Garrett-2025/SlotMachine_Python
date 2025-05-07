@@ -1,6 +1,6 @@
-from slot_machine import SlotMachine
-from player import Player
-from jackpot import Jackpot
+from src.slot_machine import SlotMachine
+from src.player import Player
+from src.jackpot import Jackpot
 
 class SlotMachineGame:
     def __init__(self, initial_credits):
