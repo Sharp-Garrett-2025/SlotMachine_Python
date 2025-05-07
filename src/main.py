@@ -1,4 +1,4 @@
-from src.slotmachinegame import SlotMachineGame
+from .slotmachinegame import SlotMachineGame
 
 # Just a simple main to start the game
 
