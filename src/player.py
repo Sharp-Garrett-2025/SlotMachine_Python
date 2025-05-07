@@ -16,4 +16,4 @@ class Player:
 
     # Get Balace
     def get_balance(self):
-        return self.balance
+        return self.balance 
