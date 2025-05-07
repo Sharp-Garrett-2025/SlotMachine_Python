@@ -5,7 +5,7 @@ class Player:
 
     # Basic Checking if the bet is valid and player has enough moneys
     def place_bet(self, bet):
-        if bet > self.balance:
+        if bet < self.balance:
             raise ValueError("Insufficient balance to place this bet.")
         self.balance -= bet
         return bet
