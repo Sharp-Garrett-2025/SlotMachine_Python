@@ -2,6 +2,7 @@ import unittest
 from src.player import Player
 
 class TestPlayer(unittest.TestCase):
+
     def setUp(self):
         self.player = Player(100)
 

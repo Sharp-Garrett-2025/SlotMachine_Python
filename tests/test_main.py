@@ -5,7 +5,7 @@ from src.slotmachinegame import SlotMachineGame
 
 class TestMain(unittest.TestCase):
     @patch('builtins.input', side_effect=['100'])  # Mock user input for initial credits
-    @patch('src.main.SlotMachineGame')  # Mock the SlotMachineGame class
+    @patch('src.main.SlotMachineGame')  # Mock SlotMachineGame class
     def test_main(self, mock_game, mock_input):
         # Create a mock instance of SlotMachineGame
         mock_game_instance = MagicMock()

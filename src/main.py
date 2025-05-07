@@ -1,5 +1,7 @@
 from src.slotmachinegame import SlotMachineGame
 
+# Just a simple main to start the game
+
 def main():
     print("Welcome to the Slot Machine!")
     initial_credits = int(input("Enter the amount of credits to add to the machine: "))

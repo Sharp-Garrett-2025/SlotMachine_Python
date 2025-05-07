@@ -11,7 +11,7 @@ class Jackpot:
         # 1 in 10,000 chance to win the jackpot
         if random.randint(1, 10000) == 1:
             winnings = self.pool
-            self.pool = 1000  # Reset the jackpot
+            self.pool = 1000  # Reset jackpot
             return winnings
         return 0
 
